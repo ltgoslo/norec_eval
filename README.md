@@ -1,6 +1,6 @@
 # NoReC_eval
 
-This dataset annotates a subset of the Norwegian Review Corpus (NoReC; Velldal et al. 2018) with respect to whether sentences are _evaluative_, i.e. sentiment-bearing.  
+This dataset annotates a subset of the Norwegian Review Corpus (NoReC; Velldal et al. 2018) with respect to whether sentences are _evaluative_, i.e. sentiment-bearing. The full [annotation guidelines](https://github.com/ltgoslo/norec_eval/blob/master/annotation_guidelines/guidelines.md) are also made available in this repo.
 
 
 ## Cite
