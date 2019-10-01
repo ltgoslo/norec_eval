@@ -8,6 +8,17 @@ The annotations and first experimental results are described in the following pa
 ## Labeled categories
 While sentences are annotated wrt being *evaluative*, they are not annotated with respect to positive/negative polarity. The reason for this is that polarity is often mixed at the sentence-level. Although most of the sentences labeled as evaluative will be subjective and personal, they can also include objective sentences. Moreover, our annotation scheme singles out a particular category of evaluative sentences called *fact-implied non-personal*. Evaluative sentences are also further sub-categorized as to whether they are considered *on-topic* with respect to the object being reviewed, and whether they express the *first-person* view of the author.
 
+## Format
+The data is distributed in a tab-separated format, with one tsv-file per review. The file names correspond to the document ids in NoReC, as to make it possible to cross-reference additional information there. There is one sentence-annotation per line, and the fields are as follows:
+
+1, ID: the NoReC sentence id.  
+2, E: indicates whether the sentence is evaluative (1) or not.  
+3, EFINP: indicates whether it is an evaluative fact-implied non-personal sentence (1) or not (0).  
+4, NOT: 1 if the evaluation in not on topic, 0 otherwise.  
+5, NFP: 1 if the evaluation is not first person, i.e. does not express the view of the author, 0 otherwise.  
+6, IAD: flags inter-annotator disasgreement; 1 if the annotators disagreed, 0 otherwise.  
+7, text: the tokenized sentence.  
+
 ## Cite
 If you use this dataset, please cite the following paper:
 
