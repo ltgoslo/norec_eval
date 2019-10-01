@@ -12,11 +12,11 @@ While sentences are annotated wrt being *evaluative*, they are not annotated wit
 The data is distributed in a tab-separated format, with one tsv-file per review. The file names correspond to the document ids in NoReC, as to make it possible to cross-reference additional information there. There is one sentence-annotation per line, and the fields are as follows:
 
 1, ID: the NoReC sentence id.  
-2, E: indicates whether the sentence is evaluative (1) or not.  
+2, E: indicates whether the sentence is evaluative (=1) or not (0).  
 3, EFINP: indicates whether it is an evaluative fact-implied non-personal sentence (1) or not (0).  
 4, NOT: 1 if the evaluation in not on topic, 0 otherwise.  
 5, NFP: 1 if the evaluation is not first person, i.e. does not express the view of the author, 0 otherwise.  
-6, IAD: flags inter-annotator disasgreement; 1 if the annotators disagreed, 0 otherwise.  
+6, IAD: flags inter-annotator disagreement; 1 if the annotators disagreed, 0 otherwise.  
 7, text: the tokenized sentence.  
 
 ## Cite
