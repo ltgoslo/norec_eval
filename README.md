@@ -18,7 +18,7 @@ The data is distributed in a tab-separated format, with one tsv-file per review.
 3, EFINP: indicates whether it is an evaluative fact-implied non-personal sentence (1) or not (0).  
 4, NOT: 1 if the evaluation in not on topic, 0 otherwise.  
 5, NFP: 1 if the evaluation is not first person, i.e. does not express the view of the author, 0 otherwise.  
-6, IAD: flags inter-annotator disagreement; 1 if the annotators disagreed, 0 otherwise.  
+6, IAD: flags inter-annotator disagreement; 1 if the annotators disagreed (on any label), 0 otherwise.  
 7, text: the tokenized sentence.  
 
 ## Cite
